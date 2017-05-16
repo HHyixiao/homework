@@ -1,0 +1,70 @@
+html {
+	font-family: "Microsoft YaHei";
+}
+.text-center {
+	text-align: center;
+}
+.text-l {
+	text-align: left;
+}
+.text-r {
+	text-align: right;
+}
+.color-fff {
+	color: #f4f2f2;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.act {
+	min-width: 980px;
+	max-width: 1920px;
+	margin: 0 auto;
+	/*margin-top: 50px;*/
+}
+.pointer {
+	cursor:pointer;
+	-webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+/*.act>div>div {
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}*/
+/*bg-1*/
+.bg-1 {
+	height: 1586px;
+    background:#FEF8E0;
+    overflow: hidden;
+    position: relative;
+    /*z-index: 2;*/
+}
+.bg-1>.sea,.bg-1>.sea1,.bg-1>.sea2,.bg-1>.beach {
+	height: 1186px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.sea {
+    background: url(../img/sea.png) bottom center no-repeat;
+}
+.sea1 {
+    background: url(../img/sea1.png) center -780px no-repeat;
+}
+.sea2 {
+    background: url(../img/sea2.png) center -900px no-repeat;
+}
+.beach {
+    background: url(../img/bg_1.png) top center no-repeat;
+}
+/*bg-2*/
+.bg-2 {
+	height: 777px;
+	background:#FEF8E0 url(../img/bg_down.jpg) bottom center no-repeat;
+}
