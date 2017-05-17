@@ -125,7 +125,7 @@
 	z-index: 2;
 }
 /*hcLeft-banner*/
-.hcLeft .banner {
+.hcLeft .banner{
 	width: 700px;
 	height: 320px;
 	position: relative;
@@ -139,10 +139,12 @@
 	top: 280px;
 	background: rgba(12,0,0,0.5);
 }
+#rotation-1-roll {
+	position: absolute;
+}
 .hcLeft .banner li{
 	width: 700px;
 	height: 320px;
-	display: none;
 }
 .hcLeft .banner li.active {
 	display: block;
@@ -215,6 +217,9 @@
 	width: 790px;
 	height: 20px;
 }
+.weltermsg>ul {
+	position: relative;
+}
 .weltermsg li {
 	float: left;
 	height: 20px;
@@ -271,15 +276,51 @@
 	top: 4px;
 	left: 0;
 }
-.gameIcon .gameTit .d2 {
+.gameIcon .gameTit>.fl>.pointer {
 	float: left;
+	height: 30px;
+	width: 220px;
+	margin: 7px 0 0 8px;
+}
+.gameIcon .gameTit .d2>div {
+	float: left;
+	height: 30px;
+	line-height: 28px;
+	font-size: 16px;
+	width: 50%;
+	border: 1px solid #e8e7e9;
+	color: #6e6f70;
+	background: #fff;
+}
+.gameIcon .gameTit .d2>div.active {
+	border: none;
+	background: #ff6d84;
+	line-height: 30px;
+	color: #fff;
 }
 .gameIcon .gameTit>div {
 	position: relative;
 	height: 40px;
 }
+.gameIcon .gameTit .fr {
+	margin: 7px 0 0 8px;
+}
 .gameIcon .gameTit .fr li{
 	float: left;
+	height: 30px;
+	line-height: 28px;
+	width: 70px;
+	border: 1px solid #e8e7e9;
+	border-right: none;
+	color: #6e6f70;
+	font-size: 14px;
+}
+.gameIcon .gameTit .fr li.active {
+	color: #fff;
+	background: #898990;
+}
+.gameIcon .gameTit .fr li:last-child {
+	border-right: 1px solid #e8e7e9;
 }
 .gameIcon .trick-list {
 	height: 580px;
@@ -390,7 +431,7 @@
 /*右侧*/
 .contRight{
 	width: 330px;
-	padding:60px 0 0 15px;
+	padding:20px 0 0 15px;
 }
 .msgNews {
 	height: 20px;
@@ -408,16 +449,19 @@
   	font-family: "SimSun";
   	color: #787777;
 }
+.msgNews .news>ul {
+	position: relative;
+}
 .msgNews .news li {
 	height: 20px;
 }
 .btns {
-	height: 36px;
-	margin: 15px 0 10px 0;
+	height: 35px;
+	margin: 10px 0 15px 0;
 }
 .btns>div,.btns>div>a{
-	height: 36px;
-	line-height: 36px;
+	height: 35px;
+	line-height: 35px;
 	width: 150px;
 	font-size: 18px;
 	display: block;
@@ -490,7 +534,7 @@
 	margin-right: 5px;
 }
 .notice .tit .fr{
-	padding: 10px 20px 0 0;
+	margin: 10px 20px 0 0;
 }
 .notice .tit .fr>div {
 	float: left;
@@ -561,7 +605,7 @@
 	height: 50px;
 	line-height: 50px;
 }
-.inquire {
+.inquire, .inquire>a{
 	height: 50px;
 	margin: 10px 0;
 	background: #fa4b66;
@@ -620,14 +664,10 @@
 .rankingList .ranknum {
 	color: rgb(51, 51, 51);
 }
-.rankingList .win1,
-.rankingList .win2,
-.rankingList .win3{
+.rankingList .win {
 	position: relative;
 }
-.rankingList .win1:after,
-.rankingList .win2:after,
-.rankingList .win3:after{
+.rankingList .win:after {
 	content: "";
 	display: block;
 	width: 24px;
@@ -636,13 +676,13 @@
 	top: 5px;
 	left: 23px;
 }
-.rankingList .win1:after {
+.rankingList .win:nth-child(1):after {
 	background: url(../img/ranking1.png);
 }
-.rankingList .win2:after {
+.rankingList .win:nth-child(2):after {
 	background: url(../img/ranking2.png);
 }
-.rankingList .win3:after {
+.rankingList .win:nth-child(3):after {
 	background: url(../img/ranking3.png);
 }
 .rankingList .page {
@@ -650,12 +690,26 @@
 	line-height: 50px;
 	font-size: 14px;
 	background: #f4f5f9;
+	position: relative;
+}
+.rankingList .page .lastPage {
+	right: 100px;
+}
+.rankingList .page .nextPage {
+	right: 30px;
 }
 .rankingList .page span {
-	padding: 5px 10px;
-	margin: 0px 10px;
+	position: absolute;
+	top: 12px;
+	display: block;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
 }
-.withdraw {
+.rankingList .page span:active {
+	top: 13px;
+}
+.withdraw,.withdraw>a{
 	margin-top: 15px;
 	height: 70px;
 	line-height: 70px;
@@ -664,7 +718,7 @@
 	background: #d60000;
 	border-radius: 6px;
 }
-.withdraw>img {
+.withdraw>a>img {
 	vertical-align: middle;
 	padding-bottom: 2px;
 }
