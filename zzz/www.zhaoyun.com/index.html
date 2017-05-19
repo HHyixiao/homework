@@ -1,0 +1,1095 @@
+﻿<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>赵云网页游戏平台,让玩家更加开心-赵云网游戏</title>
+		<link href="css/global1.css" rel="stylesheet" type="text/css">
+		<link href="css/css.css" rel="stylesheet" type="text/css">
+			
+		<link href="css/index.css" rel="stylesheet" type="text/css">
+		<link href="css/css1.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<div id="top">
+			<div id="topBox">
+				<div class="top ">
+					<div class="top-l left" style="">
+						<ul>
+							<li class="desk">
+								<a href="javascript:;">把赵云网放到桌面上</a>
+							</li>
+							<li class="pl"></li>
+							<li class="login">
+								<a href="javascript:;">赵云通行证</a>
+							</li>
+							<li class="pl"></li>
+							<li>
+								<a href="javascript:;">注册</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-r right">
+						<a id="sethome" title="设为首页">设为首页</a> <span class="pl"></span>
+						<a id="bookmark" title="加入收藏" style="color:#646464;">加入收藏</a> <span class="pl"></span>
+						<a href="javascript:;">防沉迷系统</a> <span class="pl"></span>
+						<a href="javascript:;">适龄提示:<span style="color:#ff6600;">18+</span> 家长监护系统</a>
+					</div>
+				</div>
+			</div>
+			<div id="banner">
+				<div class="banner-1">
+					<div>
+						<a href="javascript:;"> <img src="img/20150326549162.png" height="90"></a>
+					</div>
+					<div class="pr">
+						
+						<div class="ms_sinput">
+							<div class="pad_ss">
+								<form action="/index/search.html" method="get" name="formkey">
+									<input type="text" name="keyword" placeholder="请输入您要搜索的游戏" id="gameSearchKeyword">
+									<a id="ss_go" href="javascript:;" hidefocus="true"></a>
+								</form>
+							</div>
+						</div>
+						<img src="img/20150325547596.png">
+					</div>
+				</div>
+			</div>
+			<div id="navbox">
+				<div id="nav">
+					<ul id="guo">
+						<li class="on">
+							<a href="javascript:;" target="_self"><strong><span>首&nbsp;&nbsp;&nbsp;&nbsp;页</span></strong></a>
+						</li>
+						<li class="nor">
+							<a href="javascript:;" target="_self"><strong><span>游戏大厅</span></strong></a>
+						</li>
+						<li class="nor">
+							<a href="javascript:;" target="_blank"><strong><span>手机游戏</span></strong></a>
+						</li>
+						<li class="nor">
+							<a href="javascript:;" target="_self"><strong><span>用户中心</span></strong></a>
+						</li>
+						<li class="nor">
+							<a href="javascript:;" target="_self"><strong><span>开服表</span></strong></a>
+						</li>
+						<li class="nor">
+							<a href="javascript:;" target="_self"><strong><span>资讯中心</span></strong></a>
+						</li>
+						<li class="nor">
+							<a href="javascript:;" target="_self"><strong><span>充值中心</span></strong></a>
+						</li>
+						<li class="nor">
+							<a href="javascript:;" target="_self"><strong><span>客服中心</span></strong></a>
+						</li>
+						<li class="nor">
+							<a href="javascript:;" target="_blank"><strong><span>玩家论坛</span></strong></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--顶部结束-->
+
+		<style>
+			#page {
+				height: 25px;
+				text-align: center;
+				width: 238px;
+			}
+			
+			#page li {
+				padding: 4px;
+				font-size: 0;
+				background: #b6b6b6;
+				border-radius: 4px;
+				margin: 10px 8px 0 7px;
+				cursor: pointer;
+				display: inline-block;
+				zoom: 1;
+			}
+			
+			#page .hover {
+				background: #0f8ff2;
+			}
+		</style>
+		<div id="wrap">
+			<div id="container">
+				<div id="content_1">
+					<div id="login">
+						<!-- 登录前 -->
+						<form method="post" id="login_box" name="myform"><input type="hidden" name="forward" id="forward" value="/">
+							<div id="login_2">
+								<dl>
+									<dt>
+										<div class="admname">
+											<input type="text" id="user_name" name="username" class="log-text ico-img" value="" tabindex="1" placeholder="帐号">
+										</div>
+										<div class="admpsd">
+											<input name="" type="password" value="" class="log-text ico-img" id="user_pwd" tabindex="2" placeholder="密码">
+										</div>
+									</dt>
+									<dd><input type="checkbox" name="saveuser" id="saveuser" value="1" checked="check"><span>记住登录状态</span>
+										<a href="javascript:;">忘记密码</a>
+									</dd>
+								</dl>
+							</div>
+							<p class="login-ac log-btn-wrap"><input id="log_b" class="log-btn-login" type="button" value="" name="dosubmit"></p>
+						</form>
+						<div id="login_1">还没有帐号？
+							<a target="_blank" title="立即注册" class="btn btn-3" href="javascript:;">立即注册</a>
+						</div>
+					</div>
+
+					<!-- 动态导航 -->
+					<div id="banner_2">
+						<div class="effect">
+							<script type="text/javascript" src="js/jquery.pack.js"></script>
+							<script type="text/javascript" src="js/jquery.blockui.js"></script>
+							<script type="text/javascript" src="js/jquery.superslide.js"></script>
+							<script language="javascript">
+								var str = "";
+								str += "<div id='slideBox' class='slideBox'>";
+								str += "<div class='hd'><ul>";
+								str += "<li>1</li>";
+								str += "<li>2</li>";
+								str += "<li>3</li>";
+								str += "<li>4</li>";
+								str += "<li>5</li>";
+								str += "</ul></div><div class='bd'><ul>"
+								str += "<li><a href='http://www.zhaoyun.com/hall/serverlist/gid/98.html' target='_blank'><img src='img/2017040871318.png' /></a></li>";
+								str += "<li><a href='http://www.zhaoyun.com/hall/serverlist/gid/97.html' target='_blank'><img src='img/20170408462453.png' /></a></li>";
+								str += "<li><a href='http://www.zhaoyun.com/hall/serverlist/gid/49.html' target='_blank'><img src='img/20170318587651.png' /></a></li>";
+								str += "<li><a href='http://www.zhaoyun.com/index.php/article/read/aid/3337' target='_blank'><img src='img/20151218186843.png' /></a></li>";
+								str += "<li><a href='http://www.zhaoyun.com/index/hezi_download' target='_blank'><img src='img/20160225602636.png' /></a></li>";
+								str += "</ul></div></div>"
+								document.write(str);
+								jQuery(".slideBox").slide({
+									mainCell: ".bd ul",
+									effect: "left",
+									autoPlay: true
+								});
+							</script><div id="slideBox" class="slideBox"><div class="hd"><ul><li class=" ">1</li><li class="  on">2</li><li class=" ">3</li><li class=" ">4</li><li class=" ">5</li></ul></div><div class="bd"><div class="tempWrap" style="overflow:hidden; position:relative; width:465px"><ul style="width: 2325px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -460.882px;"><li style="float: left; width: 465px;"><a href="http://www.zhaoyun.com/hall/serverlist/gid/98.html" target="_blank"><img src="img/2017040871318.png"></a></li><li style="float: left; width: 465px;"><a href="http://www.zhaoyun.com/hall/serverlist/gid/97.html" target="_blank"><img src="img/20170408462453.png"></a></li><li style="float: left; width: 465px;"><a href="http://www.zhaoyun.com/hall/serverlist/gid/49.html" target="_blank"><img src="img/20170318587651.png"></a></li><li style="float: left; width: 465px;"><a href="http://www.zhaoyun.com/index.php/article/read/aid/3337" target="_blank"><img src="img/20151218186843.png"></a></li><li style="float: left; width: 465px;"><a href="http://www.zhaoyun.com/index/hezi_download" target="_blank"><img src="img/20160225602636.png"></a></li></ul></div></div></div>
+						</div>
+					</div>
+					<!-- 信息模块 -->
+					<div id="tabs0">
+						<div class="menu1">
+							<ul class="menu0" id="menu0"><span class="more"><a href="javascript:;">更多</a></span>
+								<li onmousemove="setTab(0,0)" class="">公告</li>
+								<li onmousemove="setTab(0,1)" class="hover">活动</li>
+							</ul>
+						</div>
+						<div class="main" id="main0">
+							<ul class="block" style="display: none; ">
+								<li>
+									<a href="javascript:;" class="vo_ntitle" title="赵云网《不良人》5.19更新维护公告" target="_blank">赵云网《不良人》5.19更新维护...</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="vo_ntitle" title="赵云网《帝王霸业》5.18合服公告" target="_blank">赵云网《帝王霸业》5.18合服公...</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="vo_ntitle" title="赵云网《帝王霸业》5.18更新活动公告" target="_blank">赵云网《帝王霸业》5.18更新活...</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="vo_ntitle" title="赵云网《攻城掠地》宴会请柬延迟发放及维护公告" target="_blank">赵云网《攻城掠地》宴会请柬延迟发...</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="vo_ntitle" title="赵云网《攻城掠地》大宴天下活动异常说明及解决方案" target="_blank">赵云网《攻城掠地》大宴天下活动异...</a>
+								</li>
+							</ul>
+							<ul style="display: block; ">
+								<li>
+									<a class="vo_ntitle" href="javascript:;" title="赵云网《铁骑冲锋》5.19活动公告" target="_blank">赵云网《铁骑冲锋》5.19活动公...</a>
+								</li>
+								<li>
+									<a class="vo_ntitle" href="javascript:;" title="赵云网《铁骑冲锋》5.18活动公告" target="_blank">赵云网《铁骑冲锋》5.18活动公...</a>
+								</li>
+								<li>
+									<a class="vo_ntitle" href="javascript:;" title="赵云网《大皇帝》5.18全民福利限时狂欢活动公告" target="_blank">赵云网《大皇帝》5.18全民福利...</a>
+								</li>
+								<li>
+									<a class="vo_ntitle" href="javascript:;" title="赵云网《铁骑冲锋》5.16活动公告" target="_blank">赵云网《铁骑冲锋》5.16活动公...</a>
+								</li>
+								<li>
+									<a class="vo_ntitle" href="javascript:;" title="赵云网《攻城掠地》5.15活动公告" target="_blank">赵云网《攻城掠地》5.15活动公...</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="content_2">
+					<div class="NewServiceBigGroup">
+						<div class="NewServiceGroup">
+							<div class="hangbiaoBtn">
+								<ul class="habiaoBtn" id="game_servers_lun">
+									<li class="naha_1" onmousemove="setTaba(5,0)">
+										<a title="最新开服列表" class="">最新开服列表</a>
+									</li>
+									<li class="naha_2" onmousemove="setTaba(5,1)">
+										<a title="新服推荐" class="on">新服推荐</a>
+									</li>
+									<div class="clear"></div>
+								</ul>
+							</div>
+							<div id="lun_servers">
+								<div class="XinfuList lun_servers" style="display: none;">
+									<table border="0" cellspacing="0" cellpadding="0" class="Xinfult_nrbiao">
+										<tbody>
+											<tr>
+												<th class="lie1">时间</th>
+												<th class="lie2">游戏</th>
+												<th class="lie3">服务器</th>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/18</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="梁山传奇">梁山传奇</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线16服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/18</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="不良人">不良人</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线12服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/19</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="帝王霸业">帝王霸业</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线80服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/19</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="村长打天下">村长打天下</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线60服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/20</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="梁山传奇">梁山传奇</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线17服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/20</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="大皇帝">大皇帝</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线136服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/21</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="像素骑士团">像素骑士团</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线110服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/22</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="三国之志">三国之志</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线77服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/22</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="仙侠道2">仙侠道2</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线112服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/23</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="帝王霸业">帝王霸业</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线81服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/23</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="热血三国3">热血三国3</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线21服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/24</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="铁骑冲锋">铁骑冲锋</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线46服</a>
+												</td>
+											</tr>
+											<tr class="ha_a ">
+												<td class="lie1">05/25</td>
+												<td class="lie2">
+													<a href="javascript:;" target="_blank" rel="nofollow" title="不良人">不良人</a>
+												</td>
+												<td class="lie3">
+													<a href="javascript:;" target="_blank">双线13服</a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<div class="XinfuTuijian lun_servers" style="display: block;" id="xt_box">
+									<ul>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20170321672199.png" alt="不良人" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="不良人" rel="nofollow">不良人</a>
+											</p>
+											<p class="xintui_fushu">双线12服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/18&nbsp;14:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20160108848732.png" alt="帝王霸业" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="帝王霸业" rel="nofollow">帝王霸业</a>
+											</p>
+											<p class="xintui_fushu">双线80服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/19&nbsp;09:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/2015120830577.png" alt="村长打天下" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="村长打天下" rel="nofollow">村长打天下</a>
+											</p>
+											<p class="xintui_fushu">双线60服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/19&nbsp;11:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20170323891534.png" alt="梁山传奇" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="梁山传奇" rel="nofollow">梁山传奇</a>
+											</p>
+											<p class="xintui_fushu">双线17服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/20&nbsp;13:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20151020841161.png" alt="大皇帝" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="大皇帝" rel="nofollow">大皇帝</a>
+											</p>
+											<p class="xintui_fushu">双线136服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/20&nbsp;13:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20151116473754.png" alt="像素骑士团" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="像素骑士团" rel="nofollow">像素骑士团</a>
+											</p>
+											<p class="xintui_fushu">双线110服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/21&nbsp;14:00</p>
+										</li>
+									</ul>
+									<ul style="display: none;">
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/2015112897404.png" alt="三国之志" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="三国之志" rel="nofollow">三国之志</a>
+											</p>
+											<p class="xintui_fushu">双线77服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/22&nbsp;09:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20160608624097.png" alt="仙侠道2" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="仙侠道2" rel="nofollow">仙侠道2</a>
+											</p>
+											<p class="xintui_fushu">双线112服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/22&nbsp;10:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20160108848732.png" alt="帝王霸业" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="帝王霸业" rel="nofollow">帝王霸业</a>
+											</p>
+											<p class="xintui_fushu">双线81服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/23&nbsp;09:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20170109442236.png" alt="热血三国3" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="热血三国3" rel="nofollow">热血三国3</a>
+											</p>
+											<p class="xintui_fushu">双线21服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/23&nbsp;13:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20161209139706.png" alt="铁骑冲锋" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="铁骑冲锋" rel="nofollow">铁骑冲锋</a>
+											</p>
+											<p class="xintui_fushu">双线46服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/24&nbsp;10:00</p>
+										</li>
+										<li class="xintui_box " style="padding-top: 4px;">
+											<p class="xintui_pic">
+												<a href="javascript:;" rel="nofollow"><img src="img/20170321672199.png" alt="不良人" width="51" height="51" border="0"></a>
+											</p>
+											<p class="xintui_game">
+												<a href="javascript:;" target="_blank" title="不良人" rel="nofollow">不良人</a>
+											</p>
+											<p class="xintui_fushu">双线13服</p>
+											<p class="xintui_btns">
+												<a href="javascript:;" id="getReServer_2" title="进入游戏" class="btn_jinruyx" target="_blank" rel="nofollow">进入游戏</a>
+											</p>
+											<p class="xintui_time">时间</p>
+											<p class="xintui_date">05/25&nbsp;14:00</p>
+										</li>
+									</ul>
+								</div>
+								<div id="page">
+									<ul>
+										<li class="hover" onmousemove="setTabb(6,0)"></li>
+										<li onmousemove="setTabb(6,1)"></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main-l">
+						<!-- 推荐游戏 -->
+						<div class="modelTitle1" style="height:32px;">
+							<div class="modelTitle1Lt"></div>
+							<div class="modelTitle1Rt"></div>
+							<h2><b></b><span>推荐游戏</span></h2></div>
+						<div class="rec-game-con cf" id="Dahang">
+							<div class="rec-game">
+								<div class="rec-g-img" style="background:url(bgImg/2017032326812.png) no-repeat;">
+									<div class="rec-game-cover"></div>
+									<div class="r-g-bl">
+										<a id="tj-rec-img-wukong" class="r-g-bl-a" title="梁山传奇" target="_blank" href="javascript:;">&nbsp;</a>
+										<div class="home-bg rec-info" style="top: 261px; opacity: 0; ">
+											<a title="梁山传奇" target="_blank" href="javascript:;">[新手礼包]</a>类型：角色扮演</div>
+									</div>
+								</div>
+								<h3 class="rec-g-tit"><a id="tj-rec-enter-wukong" class="btn btn-2 fr" target="_blank" href="javascript:;">进入游戏</a><a id="tj-rec-site-wukong" class="btn btn-1 fr" target="_blank" href="javascript:;">官网</a>梁山传奇</h3></div>
+							<div class="rec-game">
+								<div class="rec-g-img" style="background:url(bgImg/20161209507329.png) no-repeat;">
+									<div class="rec-game-cover"></div>
+									<div class="r-g-bl">
+										<a id="tj-rec-img-wukong" class="r-g-bl-a" title="铁骑冲锋" target="_blank" href="javascript:;">&nbsp;</a>
+										<div class="home-bg rec-info" style="top: 261px; opacity: 0; ">
+											<a title="铁骑冲锋" target="_blank" href="javascript:;">[新手礼包]</a>类型：经营策略</div>
+									</div>
+								</div>
+								<h3 class="rec-g-tit"><a id="tj-rec-enter-wukong" class="btn btn-2 fr" target="_blank" href="javascript:;">进入游戏</a><a id="tj-rec-site-wukong" class="btn btn-1 fr" target="_blank" href="javascript:;">官网</a>铁骑冲锋</h3></div>
+							<div class="rec-game">
+								<div class="rec-g-img" style="background:url(bgImg/2017032119502.png) no-repeat;">
+									<div class="rec-game-cover"></div>
+									<div class="r-g-bl">
+										<a id="tj-rec-img-wukong" class="r-g-bl-a" title="不良人" target="_blank" href="javascript:;">&nbsp;</a>
+										<div class="home-bg rec-info" style="top: 261px; opacity: 0; ">
+											<a title="不良人" target="_blank" href="javascript:;">[新手礼包]</a>类型：角色扮演</div>
+									</div>
+								</div>
+								<h3 class="rec-g-tit"><a id="tj-rec-enter-wukong" class="btn btn-2 fr" target="_blank" href="javascript:;">进入游戏</a><a id="tj-rec-site-wukong" class="btn btn-1 fr" target="_blank" href="javascript:;">官网</a>不良人</h3></div>
+							<div class="rec-game">
+								<div class="rec-g-img" style="background:url(bgImg/20160214638531.png) no-repeat;">
+									<div class="rec-game-cover"></div>
+									<div class="r-g-bl">
+										<a id="tj-rec-img-wukong" class="r-g-bl-a" title="大皇帝" target="_blank" href="javascript:;">&nbsp;</a>
+										<div class="home-bg rec-info" style="top: 261px; opacity: 0; ">
+											<a title="大皇帝" target="_blank" href="javascript:;">[新手礼包]</a>类型：战争策略</div>
+									</div>
+								</div>
+								<h3 class="rec-g-tit"><a id="tj-rec-enter-wukong" class="btn btn-2 fr" target="_blank" href="javascript:;">进入游戏</a><a id="tj-rec-site-wukong" class="btn btn-1 fr" target="_blank" href="javascript:;">官网</a>大皇帝</h3></div>
+							<div class="rec-game">
+								<div class="rec-g-img" style="background:url(bgImg/20160214740972.png) no-repeat;">
+									<div class="rec-game-cover"></div>
+									<div class="r-g-bl">
+										<a id="tj-rec-img-wukong" class="r-g-bl-a" title="帝王霸业" target="_blank" href="javascript:;">&nbsp;</a>
+										<div class="home-bg rec-info" style="top: 261px; opacity: 0; ">
+											<a title="帝王霸业" target="_blank" href="javascript:;">[新手礼包]</a>类型：战争策略</div>
+									</div>
+								</div>
+								<h3 class="rec-g-tit"><a id="tj-rec-enter-wukong" class="btn btn-2 fr" target="_blank" href="javascript:;">进入游戏</a><a id="tj-rec-site-wukong" class="btn btn-1 fr" target="_blank" href="javascript:;">官网</a>帝王霸业</h3></div>
+							<div class="rec-game">
+								<div class="rec-g-img" style="background:url(bgImg/20170109289792.png) no-repeat;">
+									<div class="rec-game-cover"></div>
+									<div class="r-g-bl">
+										<a id="tj-rec-img-wukong" class="r-g-bl-a" title="热血三国3" target="_blank" href="javascript:;">&nbsp;</a>
+										<div class="home-bg rec-info" style="top: 261px; opacity: 0; ">
+											<a title="热血三国3" target="_blank" href="javascript:;">[新手礼包]</a>类型：角色扮演</div>
+									</div>
+								</div>
+								<h3 class="rec-g-tit"><a id="tj-rec-enter-wukong" class="btn btn-2 fr" target="_blank" href="javascript:;">进入游戏</a><a id="tj-rec-site-wukong" class="btn btn-1 fr" target="_blank" href="javascript:;">官网</a>热血三国3</h3></div>
+						</div>
+						<div class="modelFt1"><b class="modelFt1Lt"></b><b class="modelFt1Rt"></b></div>
+						<!-- 热门游戏 -->
+						<!-- 更多游戏 -->
+					</div>
+				</div>
+				<div id="content_3">
+					<div id="content_3_left">
+						<div id="tdao">
+							<div id="tao_1">
+								<p>快速通道</p>
+								<!--<span class="more"><a href="javascript:;">更多</a></span>--></div>
+							<div id="tao_2">
+								<dl><dt><a href="javascript:;" class="mfzeBtn"></a></dt>
+									<dd>
+										<a href="javascript:;" class="yxczBtn"></a>
+									</dd><dt><a href="javascript:;" class="zhmmBtn"></a></dt>
+									<dd>
+										<a href="javascript:;" class="fcmxtBtn"></a>
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div id="ph">
+							<div class="reutit borb">
+								<div class="reutit_icon icon_rmph">热门游戏排行</div>
+							</div>
+							<div class="reucon">
+								<ul class="hottop">
+									<li>
+										<div class="link lk_tit"><span class="ht_num">排名</span><span class="ht_name">游戏</span><span class="ht_type">类型</span><span class="ht_ser">新服</span></div>
+									</li>
+									<li>
+										<a href="javascript:;" class="link" target="_blank" hidefocus="true"><span class="ht_num hot1">1</span><span class="ht_name">梁山传奇</span><span class="ht_type">角色扮演</span><span class="ht_ser">16服</span></a>
+									</li>
+									<li>
+										<a href="javascript:;" class="link" target="_blank" hidefocus="true"><span class="ht_num hot2">2</span><span class="ht_name">铁骑冲锋</span><span class="ht_type">经营策略</span><span class="ht_ser">45服</span></a>
+									</li>
+									<li>
+										<a href="javascript:;" class="link" target="_blank" hidefocus="true"><span class="ht_num hot3">3</span><span class="ht_name">不良人</span><span class="ht_type">角色扮演</span><span class="ht_ser">12服</span></a>
+									</li>
+									<li>
+										<a href="javascript:;" class="link" target="_blank" hidefocus="true"><span class="ht_num hot4">4</span><span class="ht_name">大皇帝</span><span class="ht_type">战争策略</span><span class="ht_ser">135服</span></a>
+									</li>
+									<li>
+										<a href="javascript:;" class="link" target="_blank" hidefocus="true"><span class="ht_num hot5">5</span><span class="ht_name">帝王霸业</span><span class="ht_type">战争策略</span><span class="ht_ser">80服</span></a>
+									</li>
+									<li>
+										<a href="javascript:;" class="link" target="_blank" hidefocus="true"><span class="ht_num hot6">6</span><span class="ht_name">热血三国3</span><span class="ht_type">角色扮演</span><span class="ht_ser">20服</span></a>
+									</li>
+									<li>
+										<a href="javascript:;" class="link" target="_blank" hidefocus="true"><span class="ht_num hot7">7</span><span class="ht_name">仙侠道2</span><span class="ht_type">角色扮演</span><span class="ht_ser">111服</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div id="Phone">
+							<a href="javascript:;" target="_blank"><img src="img/kjimg_1.png" style=" margin-bottom:10px;height:60px; width:225px;"></a>
+							<a href="javascript:;" target="_blank"><img style=" margin-bottom:10px;height:60px; width:225px;" src="img/kjimg_2.png"></a>
+							<a href="javascript:;" target="_blank"><b><img style=" margin-bottom:10px; height:60px; width:225px;" src="img/kjimg_3.png"></b></a>
+							<a href="javascript:;" target="_blank"><b><img src="img/kjimg_4.jpg" style="height:60px; width:225px;"></b></a>
+						</div>
+						<div class="game_zg_box">
+							<div class="game_zg_top">
+								<h3>健康游戏忠告</h3></div>
+							<div class="game_zg_title">
+								<ul>
+									<li>抵制不良游戏</li>
+									<li>拒绝盗版游戏</li>
+									<li>注意自我保护</li>
+									<li>谨防上当受骗</li>
+									<li>适度游戏益脑</li>
+									<li>沉迷游戏伤身</li>
+									<li>合理安排游戏</li>
+									<li>享受健康生活</li>
+								</ul>
+							</div>
+						</div>
+						<style>
+							.game_zg_box {
+								width: 240px;
+								float: left;
+								padding-left: 5px;
+								color: #727272;
+							}
+							
+							.game_zg_top {
+								height: 40px;
+								width: 230px;
+								border-bottom: 1px solid #bbb;
+							}
+							
+							.game_zg_top h3 {
+								font-size: 20px;
+								line-height: 40px;
+							}
+							
+							.game_zg_title {
+								text-align: center;
+								margin-top: 10px;
+							}
+							
+							.game_zg_title li {
+								float: left;
+								width: 110px;
+								line-height: 30px;
+								font-size: 14px;
+							}
+						</style>
+					</div>
+					<div id="content_3_right">
+						<div id="Daquan">
+							<div class="modelTitle1">
+								<div class="modelTitle1Lt"></div>
+								<div class="modelTitle1Rt"></div>
+								<h2><b></b><span>火爆游戏</span><span style="float: right;"><a href="javascript:;" target="_blank">更多</a></span></h2></div>
+							<div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20161209241128.png" width="215" height="130"></a></dt>
+											<dd><span>国战魏蜀吴</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20170323187154.png" width="215" height="130"></a></dt>
+											<dd><span>梁山传奇</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20160129797374.png" width="215" height="130"></a></dt>
+											<dd><span>三国之志</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20161209840437.png" width="215" height="130"></a></dt>
+											<dd><span>铁骑冲锋</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20170321275035.png" width="215" height="130"></a></dt>
+											<dd><span>不良人</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20160519455101.png" width="215" height="130"></a></dt>
+											<dd><span>弹弹堂3</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20160129176102.png" width="215" height="130"></a></dt>
+											<dd><span>战棋时代</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20160712494223.png" width="215" height="130"></a></dt>
+											<dd><span>武神赵子龙</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20160129647852.png" width="215" height="130"></a></dt>
+											<dd><span>大皇帝</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20160129571677.png" width="215" height="130"></a></dt>
+											<dd><span>帝王霸业</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20170112370344.png" width="215" height="130"></a></dt>
+											<dd><span>热血三国3</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+								<div id="lb">
+									<div id="lb_1">
+										<dl><dt><a href="javascript:;"><img src="img/20160608692943.png" width="215" height="130"></a></dt>
+											<dd><span>仙侠道2</span>
+												<a href="javascript:;">领取礼包</a>
+											</dd>
+										</dl>
+									</div>
+									<div id="lb_2">
+										<dl>
+											<dd>
+												<a href="javascript:;" class="Btn1">开始游戏</a>
+												<a href="javascript:;" target="_blank" class="Btn2">进入官网</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<div class="modelFt1"><b class="modelFt1Lt"></b><b class="modelFt1Rt"></b></div>
+						</div>
+						<div id="Raiders"></div>
+					</div>
+				</div>
+				<div id="content_4">
+					<style type="text/css">
+						.youlianshenqing {
+							float: right;
+							height: 20px;
+							display: inline;
+							overflow: hidden;
+							margin-top: 9px;
+							font: 12px "微软雅黑";
+						}
+						
+						.youlian {
+							float: left;
+							height: 20px;
+							display: inline;
+							overflow: hidden;
+							margin-top: 7px;
+							font: 15px "微软雅黑";
+						}
+						
+						.h5_float .h5f_left {
+							background: url("bgImg/h5_left.png") no-repeat;
+							width: 260px;
+							height: 288px;
+							position: absolute;
+							top: 10%;
+							left: 1%;
+							z-index: 9999;
+						}
+						
+						.h5_float .h5f_right {
+							background: url("bgImg/h5_right.jpg") no-repeat;
+							width: 260px;
+							height: 288px;
+							position: absolute;
+							top: 10%;
+							right: 0%;
+							z-index: 9999;
+						}
+						
+						.h5_float #h5f_left_clase,
+						.h5_float #h5f_right_clase {
+							width: 25px;
+							height: 20px;
+							display: inline-block;
+							float: right;
+							margin-top: 5px;
+							margin-right: 4px;
+						}
+						
+						.h5_float .h5f_href {
+							width: 320px;
+							height: 330px;
+							display: inline-block;
+							float: right;
+						}
+					</style>
+					<div id="friendsLink" class="mt10">
+						<div class="modelTitle1">
+							<div class="modelTitle1Lt"></div>
+							<div class="modelTitle1Rt"></div>
+							<h2><b></b><span class="youlian">友情链接</span><span class="youlianshenqing">申请友链QQ:2140338164</span></h2></div>
+						<div class="friendsLinkCont">
+							<a href="javascript:;" target="_blank">手游论坛</a>|
+							<a href="javascript:;" target="_blank">棋牌游戏</a>|
+							<a href="javascript:;" target="_blank">大玩网</a>|
+							<a href="javascript:;" target="_blank">棋牌游戏开发</a>|
+							<a href="javascript:;" target="_blank">经典笑话</a>|
+							<a href="javascript:;" target="_blank">笑话大全</a>|
+							<a href="javascript:;" target="_blank">手机主题</a>|
+							<a href="javascript:;" target="_blank">Vainglory</a>|
+							<a href="javascript:;" target="_blank">苹果手机助手</a>|
+							<a href="javascript:;" target="_blank">游戏链</a>|
+							<a href="javascript:;" target="_blank">娱乐八卦</a>|
+							<a href="javascript:;" target="_blank">小游戏大全</a>|
+							<a href="javascript:;" target="_blank">一库</a>|
+							<a href="javascript:;" target="_blank">开服表</a>|
+							<a href="javascript:;" target="_blank">mmwan小游戏</a>|
+							<a href="javascript:;" target="_blank">模型玩具</a>|
+							<a href="javascript:;" target="_blank">网页游戏</a>|
+							<a href="javascript:;" target="_blank">手机游戏下载</a>|
+							<a href="javascript:;" target="_blank">酷987下载站</a>|
+							<a href="javascript:;" target="_blank">好玩的手机游戏</a>|
+							<a href="javascript:;" target="_blank">游戏化</a>|
+							<a href="javascript:;" target="_blank">石头村</a>|
+							<a href="javascript:;" target="_blank">快乐赚</a>|
+							<a href="javascript:;" target="_blank">24趣吧</a>|
+							<a href="javascript:;" target="_blank">乐豆玩</a>|</div>
+						<div class="modelFt1"><b class="modelFt1Lt"></b><b class="modelFt1Rt"></b></div>
+					</div>
+
+					<script>
+						function setTab(m, n) {
+							var tli = document.getElementById("menu" + m).getElementsByTagName("li");
+							var mli = document.getElementById("main" + m).getElementsByTagName("ul");
+							for(i = 0; i < tli.length; i++) {
+								tli[i].className = i == n ? "hover" : "";
+								mli[i].style.display = i == n ? "block" : "none";
+							}
+						}
+
+						function setTaba(m, n) {
+							var tli = document.getElementById("game_servers_lun").getElementsByTagName("a");
+							var mli = document.getElementById("lun_servers").getElementsByTagName("div");
+							for(i = 0; i < tli.length; i++) {
+								tli[i].className = i == n ? "on" : "";
+								mli[i].style.display = i == n ? "block" : "none";
+							}
+						}
+
+						function setTabb(m, n) {
+							var tli = document.getElementById("page").getElementsByTagName("li");
+							var mli = document.getElementById("xt_box").getElementsByTagName("ul");
+							for(i = 0; i < tli.length; i++) {
+								tli[i].className = i == n ? "hover" : "";
+								mli[i].style.display = i == n ? "block" : "none";
+							}
+						}
+					</script>
+					<script src="js/jquery-1.4.2.js" type="text/javascript"></script>
+
+
+					<div id="footer">
+					<span><a href="javascript:;">人才招聘</a>
+						<font>|</font>
+						<a href="javascript:;">关于我们</a>
+						<font>|</font>
+						<a href="javascript:;">纠纷处理</a>
+						<font>|</font>
+						<a href="javascript:;">联系我们</a>
+						<font>|</font>
+						<a href="javascript:;">商务合作</a>
+						<font>|</font>
+						<a href="javascript:;">客服中心</a>
+						<font>|</font>
+						a href="javascript:;"&gt;游戏攻略
+						<font></font></span><font>
+						<i>抵制不良网页游戏，拒绝盗版游戏。 注意自我保护，谨防受骗上当。 适度游戏益脑，沉迷游戏伤身。 合理安排时间，享受健康生活。 <br>  赵云网页游戏平台(
+	zhaoyun  )  辽宁第二梦想网络科技有限公司 Copyright  2001-2014 版权所有 未经授权禁止转载、摘编、复制或建立镜像 <br>  网络文化经营许可证: 
+							<a href="javascript:;" target="_blank">辽文网文[2014]387-009</a> 备案号 : 
+							<a href="javascript:;" target="_blank">辽ICP备14003776号-2 </a>电信业务增值许可证: 
+							<a href="javascript:;" target="_blank">辽B2-20150048</a>公安备案号:21080202000019
+						</i>
+						<a href="http://wljg.lngs.gov.cn/iciaicweb/dzbscheck.do?method=change&amp;id=E2015112400065573" target="_blank"><img alt="网络经济主体信息" border="0" dragover="true" src="img/gswm.png"></a>
+						<a href="javascript:;">
+							<img src="//static.anquan.org/static/outer/image/hy_124x47.png?id=127.0.0.1?t=57" alt="安全联盟认证" width="124" height="47" style="border: none;">
+						</a>
+
+					</font></div><font>
+				</font></div><font>
+			</font></div><font>
+	
+
+</font></div></body>
+</html>

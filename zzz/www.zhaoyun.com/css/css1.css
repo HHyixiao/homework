@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+/* CSS Document */
+#ph {
+  width: 238px;
+  float: left;
+  border: 1px solid #d0d0d0;
+  margin-bottom: 8px;
+}
+#Phone {
+  margin-bottom: 8px;
+}
+.reutit {
+  height: 37px;
+  padding: 0 17px;
+  background: url(../bgImg/tit_repeat.jpg) repeat-x left center;
+}
+.borb {
+  border-bottom: 1px solid #d0d0d0;
+}
+.reucon {
+  background: #ffffff;
+}
+.reutit_icon {
+  padding-left: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+  font-family: 'Microsoft YaHei';
+  line-height: 37px;
+  float: left;
+}
+.icon_rmph {
+  background: url(../bgImg/tit_icon_21.png) no-repeat left center;
+}
+.lk_tit {
+  padding-left: 4px;
+}
+.hottop li .ht_num {
+  width: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background: url(../bgImg/hotg_a.png) no-repeat center center;
+}
+.hottop li .ht_name {
+  width: 85px;
+}
+.hottop li .ht_type {
+  width: 60px;
+}
+.hottop li .ht_ser {
+  width: 57px;
+}
+.hottop li span {
+  display: block;
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+.hottop li {
+  border-bottom: 1px dotted #d0d0d0;
+  height: 35px;
+}
+.hottop .lk_tit span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  background: none;
+}
+.hottop li .ht_num.hot1 {
+  background: url(../bgImg/hotg_1.png) no-repeat center center;
+}
+.hottop li .ht_num.hot2 {
+  background: url(../bgImg/hotg_2.png) no-repeat center center;
+}
+.hottop li .ht_num.hot3 {
+  background: url(../bgImg/hotg_3.png) no-repeat center center;
+}
+
+

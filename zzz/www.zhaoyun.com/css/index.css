@@ -1,0 +1,267 @@
+﻿@charset gb2312;
+#nav .hover a { background: #ff6009 url(../bgImg/navhover_border.png) no-repeat 4px 0 }
+#nav .hover a:hover { background: #ff6009 url(../bgImg/navhover_border.png) no-repeat 4px 0 !important }
+#nav li a { text-decoration: none }
+
+#news { width: 243px; height: 231px; border: 1px solid #ebebeb; float: left }
+#news dt { width: 227px; height: 33px; font-size: 14px; float: left; font-weight: bold; line-height: 32px; padding-left: 14px; border: 1px solid #fff; border-bottom: 0; background: url(../bgImg/index_7.jpg) repeat-x }
+#news dt a { width: 55px; height: 28px; float: left; text-align: center; margin: 2px 8px 0 0; display: block; color: #f60 }
+#news dt span a { color: #fff; background: url(../bgImg/index_2.png) no-repeat -11px -143px }
+#news dt a:hover { color: #fff; background: url(../bgImg/index_2.png) no-repeat -11px -143px }
+#news dd { width: 223px; padding: 0 10px 0 10px; line-height: 28px }
+#content_1 { width: 965px; overflow: hidden; zoom: 1; margin-bottom: 8px }
+#content_3 { width: 965px; margin-bottom: 12px; overflow: hidden; zoom: 1 }
+#content_2 { width: 965px; margin-bottom: 12px; overflow: hidden; zoom: 1 }
+#Game { width: 240px; float: left; margin-right: 8px }
+#Game1 { width: 231px; height: 32px; overflow: hidden; zoom: 1; font-size: 15px; color: #2b2b2b; vertical-align: middle; font-weight: bold; padding-left: 9px; background: url(../bgImg/602indeximg.png) no-repeat 0 -314px }
+#Game1 p { float: left; height: 20px; display: inline; overflow: hidden; margin-top: 7px; font: 15px microsoft yahei }
+#Game1 img { margin-left: 31px }
+#Game1 .more { margin-top: 13px; margin-right: 8px }
+#Game dl { width: 224px; padding: 0 8px 0 8px; border-top: 0; overflow: hidden; zoom: 1 }
+#Game dt { width: 164px; height: 30px; float: left; line-height: 30px; border-bottom: 1px dashed #e4e4e4 }
+#Game dt span { width: 42px; display: block; float: left; overflow: hidden; text-align: left }
+#Game dt b { width: 42px; display: block; float: left; font-weight: 100; text-align: center }
+#Game dt strong { width: 80px; display: block; float: left; font-weight: 100; text-align: center; color: #c3741f }
+#Game dd { width: 60px; height: 30px; float: left; text-align: right; border-bottom: 1px dashed #e4e4e4 }
+#Game dd a { width: 60px; height: 18px; line-height: 18px; text-align: center; display: block; color: #fff; background: url(../bgImg/602indeximg.png) no-repeat 0 -352px; margin-top: 6px }
+#Game dd a:hover { background: url(../bgImg/602indeximg.png) no-repeat -60px -352px }
+#TOP4 { width: 717px; float: left; overflow: hidden; zoom: 1 }
+#TOP4_1 { width: 697px; height: 32px; line-height: 32px; padding: 0 10px 0 10px; border-bottom: 0; background: url(../bgImg/602indeximg.png) no-repeat 0 -402px }
+#TOP4_1 strong { float: left; height: 20px; display: inline; overflow: hidden; margin-top: 7px; font: bold 14px/20px arial, "微软雅黑", "宋体" }
+#TOP4_1 a { float: right }
+#TOP4_2 { width: 715px; border-left: 1px #e0e0e0 solid; border-right: 1px #e0e0e0 solid; border-bottom: 1px #e0e0e0 solid; overflow: hidden; zoom: 1; padding: 5px 0 6px 0 }
+#TOP4_3 dl { width: 164px; height: 165px; float: left; margin-left: 12px; display: inline; overflow: hidden; margin-bottom: 15px; margin-top: 10px }
+#TOP4_3 dt { width: 164px; height: 140px; text-align: center; float: left; color: #aaa; line-height: 20px }
+#TOP4_3 dt img { margin-bottom: 8px }
+#TOP4_3 dt b { font-size: 14px; color: #fb7b00; margin-right: 4px }
+#TOP4_3 dd { width: 154px; display: block; float: left; padding: 0 5px }
+#TOP4_3 dd a { width: 67px; height: 22px; float: left; display: block; color: #333; line-height: 24px; text-align: center; margin-right: 10px; background: url(../bgImg/602indeximg.png) no-repeat 0 -438px; text-indent: -999em; overflow: hidden }
+#TOP4_3 dd a:hover { background: url(../bgImg/602indeximg.png) no-repeat 0 -460px }
+#TOP4_3 dd span a { text-align: center; color: #fff; background: url(../bgImg/602indeximg.png) no-repeat -84px -438px; text-indent: -999em; margin-right: 0 }
+#TOP4_3 dd span { float: right }
+#TOP4_3 dd span a:hover { background: url(../bgImg/602indeximg.png) no-repeat -84px -460px }
+#TOP4_3 { overflow: hidden; zoom: 1 }
+#TOP4_1 .more { margin-top: 13px; margin-right: 0 }
+*/#content_3 {
+width:965px;
+overflow:hidden;
+zoom:1;
+margin-bottom:20px
+}
+#content_4 { width: 965px; overflow: hidden; zoom: 1 }
+#content_3_left { width: 240px; float: left; margin-right: 8px; overflow: hidden }
+#Top { width: 240px; margin-bottom: 12px }
+#Top dl { width: 240px; background: url(../bgImg/602indeximg.png) no-repeat -926px -306px; overflow: hidden; zoom: 1 }
+#Top dt { width: 231px; height: 32px; overflow: hidden; zoom: 1; font-size: 15px; color: #2b2b2b; vertical-align: middle; font-weight: bold; padding-left: 9px; background: url(../bgImg/602indeximg.png) no-repeat 0 -314px; float: left; margin-bottom: 5px }
+#Top dt strong { float: left; height: 20px; display: inline; overflow: hidden; margin-top: 7px; font: bold 14px/20px "微软雅黑", "宋体" }
+#Top dt .more { margin-top: 13px; margin-right: 8px }
+#Top dd { width: 205px; height: 29px; line-height: 29px; border-bottom: 1px dashed #e3e3e3; padding-left: 29px; float: left; margin-right: 5px; overflow: hidden; zoom: 1 }
+#Top dd a { color: #666 }
+#Top dd a:hover { color: #d70000 }
+#Top dd span a { color: #fb7b00; font-size: 14px; font-weight: bold }
+#content_3_right { width: 717px; float: left; overflow: hidden }
+#Daquan { width: 717px; margin-bottom: 8px; overflow: hidden }
+#Daquan_1 { width: 717px; height: 32px; line-height: 32px; background: url(../bgImg/602indeximg.png) no-repeat 0 -485px }
+#Daquan_1 dt { width: 137px; height: 32px; float: left; color: #fff; line-height: 32px; font-size: 14px; font-weight: bold; padding-left: 17px }
+#Daquan_1 dl { overflow: hidden; zoom: 1; width: 717px; overflow: hidden; height: 32px }
+#Daquan_1 span dt { text-align: right; font-size: 12px; font-weight: 100 }
+#Daquan_1 dd { width: 440px; height: 32px; text-align: center; float: left; color: #fff; line-height: 32px }
+#Daquan_1 dd a { color: #fff }
+#Daquan_1 span dt { width: 108px; float: right; padding-right: 12px; color: #fff }
+#Daquan_1 span dt a { color: #fff }
+#Daquan_2 .cbMiddle { overflow: hidden; zoom: 1; background: url(../bgImg/conboxk.png) repeat-y -717px 0 }
+#Daquan_2 { width: 715px; }
+#Daquan_2 .cbTop { height: 4px; overflow: hidden; background: url(../bgImg/conboxk.png) no-repeat }
+#Daquan_2 .cbMiddle { overflow: hidden; zoom: 1; background: url(../bgImg/conboxk.png) repeat-y -717px 0 }
+#Daquan_2 .cbBottom { height: 4px; overflow: hidden; background: url(../bgImg/conboxk.png) no-repeat -1434px 0 }
+#lb { width: 225px; height: 215px; float: left; margin-right: 10px; display: inline; overflow: hidden; margin-bottom: 10px; margin-top: 10px }
+#lb_1 { width: 220px; height: 144px }
+#lb_1 dt { width: 220px; height: 115px; padding: 5px 0 0 5px; /*background: url(../bgImg/index_11.jpg) no-repeat*/ }
+#lb_1 dd { width: 220px; height: 18px; overflow: hidden }
+#lb_1 dd span { width: 134px; height: 18px; line-height: 18px; display: block; float: left; margin: 0 5px 0 8px; display: inline; padding-left: 11px; background: url(../bgImg/602indeximg.png) no-repeat -947px -986px; overflow: hidden }
+#lb_1 dd a { width: 61px; height: 18px; display: block; float: left; text-align: center; line-height: 18px; background: url(../bgImg/602indeximg.png) no-repeat 0 -519px; color: #36c; float: right }
+#lb_1 dd a:hover { background: url(../bgImg/602indeximg.png) no-repeat -61px -519px }
+#lb_2 { width: 220px }
+#lb_2 dt { width: 220px; height: 22px; line-height: 22px }
+#lb_2 dt a { color: #36C }
+#lb_2 dt span { width: 30px; padding-left: 9px; color: #fb7b00; float: left }
+#lb_2 dt b { width: 66px; font-weight: 100; float: left; color: #565656 }
+#lb_2 dt strong { width: 66px; _width: 64px; font-weight: 100; color: #20b4f1; float: left }
+#lb_2 dd { width: 212px; height: 22px; padding-top: 4px; line-height: 18px; padding-left: 8px }
+#lb_2 dd a { width: 60px; height: 18px; color: #fff; float: left; display: block; background: url(../bgImg/index_2.png) no-repeat -42px -291px; text-indent: -999em }
+#lb_2 dd .Btn1 { float: left; width: 84px; height: 20px; overflow: hidden; background: url(../bgImg/602indeximg.png) no-repeat 0 -539px }
+#lb_2 dd .Btn1:hover { background: url(../bgImg/602indeximg.png) no-repeat 0 -561px }
+#lb_2 dd .Btn2 { float: right; width: 84px; height: 20px; overflow: hidden; background: url(../bgImg/602indeximg.png) no-repeat -86px -539px }
+#lb_2 dd .Btn2:hover { background: url(../bgImg/602indeximg.png) no-repeat -86px -561px }
+#Daquan_2 { width: 715px; }
+#Daquan_2 .cbTop { height: 4px; overflow: hidden; background: url(../bgImg/conboxk.png) no-repeat }
+#TOP4_2 .cbMiddle { overflow: hidden; zoom: 1; padding-left: 10px }
+#Daquan_2 .cbBottom { height: 4px; overflow: hidden; background: url(../bgImg/conboxk.png) no-repeat -1434px 0 }
+/*
+#lb { width: 225px; height: 215px; float: left; margin-right: 10px; display: inline; overflow: hidden; margin-bottom: 10px; margin-top: 10px }
+#lb_1 { width: 220px; height: 144px }
+#lb_1 dt { width: 220px; height: 115px; padding: 5px 0 0 5px; background: url(../bgImg/index_11.jpg) no-repeat }
+#lb_1 dd { width: 220px; height: 18px; overflow: hidden }
+#lb_1 dd span { width: 134px; height: 18px; line-height: 18px; display: block; float: left; margin: 0 5px 0 8px; display: inline; padding-left: 11px; background: url(../bgImg/602indeximg.png) no-repeat -947px -986px; overflow: hidden }
+#lb_1 dd a { width: 61px; height: 18px; display: block; float: left; text-align: center; line-height: 18px; background: url(../bgImg/602indeximg.png) no-repeat 0 -519px; color: #36c; float: right }
+#lb_1 dd a:hover { background: url(../bgImg/602indeximg.png) no-repeat -61px -519px }
+#lb_2 { width: 220px }
+#lb_2 dt { width: 220px; height: 22px; line-height: 22px }
+#lb_2 dt a { color: #36C }
+#lb_2 dt span { width: 30px; padding-left: 9px; color: #fb7b00; float: left }
+#lb_2 dt b { width: 66px; font-weight: 100; float: left; color: #565656 }
+#lb_2 dt strong { width: 66px; _width: 64px; font-weight: 100; color: #20b4f1; float: left }
+#lb_2 dd { width: 212px; height: 22px; padding-top: 4px; line-height: 18px; padding-left: 8px }
+#lb_2 dd a { width: 60px; height: 18px; color: #fff; float: left; display: block; background: url(../bgImg/index_2.png) no-repeat -42px -291px; text-indent: -999em }
+#lb_2 dd .Btn1 { float: left; width: 84px; height: 20px; overflow: hidden; background: url(../bgImg/602indeximg.png) no-repeat 0 -539px }
+#lb_2 dd .Btn1:hover { background: url(../bgImg/602indeximg.png) no-repeat 0 -561px }
+#lb_2 dd .Btn2 { float: right; width: 84px; height: 20px; overflow: hidden; background: url(../bgImg/602indeximg.png) no-repeat -86px -539px }
+#lb_2 dd .Btn2:hover { background: url(../bgImg/602indeximg.png) no-repeat -86px -561px }
+*/
+#lb{ width:225px; height: 210px; float:left; margin-right: 12px; display:inline; overflow: hidden; margin-bottom: 10px;}
+#lb_1{ width:220px; height:174px;}
+#lb_1 dt{ width:220px; height:145px; padding:5px 0 0 5px;/* background:url(../bgImg/index_11.jpg) no-repeat;*/}
+#lb_1 dd{ width:220px; height:18px; overflow:hidden;}
+#lb_1 dd span{ width: 134px; height:18px; line-height:18px; display:block; float:left; margin:0 5px 0 8px; display:inline; padding-left: 11px; background: url(../bgImg/602indeximg.png) no-repeat -947px -986px; overflow:hidden;}
+#lb_1 dd a{ width: 61px; height: 18px; display:block; float:left; text-align:center; line-height:18px; background: url(../bgImg/602indeximg.png) no-repeat 0px -519px; color:#36c; float:right;}
+#lb_1 dd a:hover{background: url(../bgImg/602indeximg.png) no-repeat -61px -519px;}
+#lb_2{ width:220px;}
+#lb_2 dt{ width:220px; height:22px; line-height:22px;}
+#lb_2 dt a {color: #36C;}
+#lb_2 dt span{  width:30px; padding-left:9px;   color: #fb7b00; float:left;}
+#lb_2 dt b{ width:66px; font-weight:100; float:left; color: #565656;}
+#lb_2 dt strong{ width:66px;_width:64px; font-weight:100; color: #20b4f1; float:left;}
+#lb_2 dd{ width:212px; height:22px; padding-top:4px; line-height:18px; padding-left:8px;}
+#lb_2 dd a{ width:60px; height:18px; color:#fff; float:left;display:block; background:url(../bgImg/index_2.png) no-repeat -42px -291px; text-indent:-999em;}
+#lb_2 dd .Btn1{ float:left;width:84px; height:20px; overflow:hidden;background: url(../bgImg/602indeximg.png) no-repeat 0px -539px;}
+#lb_2 dd .Btn1:hover{background: url(../bgImg/602indeximg.png) no-repeat 0px -561px;}
+#lb_2 dd .Btn2{ float:right;width:84px; height:20px; overflow:hidden;background: url(../bgImg/602indeximg.png) no-repeat -86px -539px;}
+#lb_2 dd .Btn2:hover{background: url(../bgImg/602indeximg.png) no-repeat -86px -561px;}
+
+
+
+
+
+
+#tdao { width: 240px; margin-bottom: 8px; float: left }
+#tao_1 { width: 231px; height: 32px; border-bottom: 0; font-size: 15px; color: #333; line-height: 30px; background: url(../bgImg/602indeximg.png) no-repeat 0 -314px; padding-left: 9px }
+#tao_1 p { float: left; height: 20px; display: inline; overflow: hidden; margin-top: 7px; font: 15px microsoft yahei; }
+#tao_1 .more { margin-top: 13px; margin-right: 8px }
+#tao_2 { width: 230px; float: left; padding: 10px 0 0 5px; border-top: 0 }
+#tao_2 dt { width: 119px; height: 40px; float: left; line-height: 30px }
+#tao_2 a { display: block; float: left; width: 110px; height: 30px; overflow: hidden }
+#tao_2 dd { width: 104px; height: 40px; float: left; line-height: 30px }
+#tao_2 .mfzeBtn { background: url(../bgImg/602indeximg.png) no-repeat 0 -619px }
+#tao_2 .mfzeBtn:hover { background: url(../bgImg/602indeximg.png) no-repeat -237px -619px }
+#tao_2 .yxczBtn { background: url(../bgImg/602indeximg.png) no-repeat -119px -619px }
+#tao_2 .yxczBtn:hover { background: url(../bgImg/602indeximg.png) no-repeat -356px -619px }
+#tao_2 .zhmmBtn { background: url(../bgImg/602indeximg.png) no-repeat 0 -657px }
+#tao_2 .zhmmBtn:hover { background: url(../bgImg/602indeximg.png) no-repeat -237px -657px }
+#tao_2 .zhssBtn { background: url(../bgImg/602indeximg.png) no-repeat -119px -657px }
+#tao_2 .zhssBtn:hover { background: url(../bgImg/602indeximg.png) no-repeat -356px -657px }
+#tao_2 .jzjhBtn { background: url(../bgImg/602indeximg.png) no-repeat 0 -695px }
+#tao_2 .jzjhBtn:hover { background: url(../bgImg/602indeximg.png) no-repeat -237px -695px }
+#tao_2 .fcmxtBtn { background: url(../bgImg/602indeximg.png) no-repeat -119px -695px }
+#tao_2 .fcmxtBtn:hover { background: url(../bgImg/602indeximg.png) no-repeat -356px -695px }
+#Phone { width: 240px; float: left; padding-left: 5px }
+#Phone img { padding: 1px; border: 1px solid #cbccce }
+#Raiders { width: 717px; overflow: hidden; zoom: 1; float: left }
+#Raiders_left { width: 522px; height: 286px; float: left; margin-right: 7px }
+#Raiders_left_1 { width: 504px; height: 32px; border: 1px solid #ebebeb; padding-left: 16px; font-size: 14px; color: #f60; font-weight: bold; line-height: 32px; background: url(../bgImg/index_3.gif) repeat-x }
+#Raiders_left_2 { width: 520px; height: 240px; padding-top: 12px; border: 1px solid #ebebeb; border-top: 0 }
+#Raiders_news { width: 484px; height: 29px; margin-left: 20px }
+#Raiders_news dt { width: 13px; height: 29px; float: left }
+#Raiders_news dd { width: 438px; height: 29px; float: left; line-height: 29px; font-size: 14px; padding: 0 10px 0 10px; background: url(../bgImg/index_23.jpg) repeat-x }
+#Raiders_news dd a { display: block; height: 29px; font-weight: bold; color: #f60; float: left; padding: 0 16px 0 16px; float: left }
+#Raiders_news dd a:hover { background: #f60; color: #fff }
+#Raiders_lb { width: 484px; height: 180px; margin-left: 20px }
+#Raiders_lb li { width: 218px; height: 26px; line-height: 26px; margin-right: 12px; float: left; padding-left: 12px; background: url(../bgImg/index_4.gif) no-repeat 2px 11px }
+#Raiders_right { width: 199px; float: right }
+#Raiders_right .iwbox_top { height: 4px; overflow: hidden; zoom: 1; background: url(../bgImg/iwbox.png) no-repeat 0 0 }
+#Raiders_right .iwbox_middle { overflow: hidden; zoom: 1; width: 199px; background: url(../bgImg/iwbox.png) repeat-y -199px 0 }
+#Raiders_right .iwbox_bottom { height: 4px; overflow: hidden; zoom: 1; background: url(../bgImg/iwbox.png) no-repeat -398px 0 }
+#Raiders_right dt { width: 189px; height: 28px; padding-left: 10px; line-height: 28px; font-size: 16px; font-weight: 300; color: #333; padding-top: 3px; font-family: "微软雅黑"; padding-bottom: 5px }
+#Raiders_right dd { width: 199px }
+#Raiders_right dd ul { background: url(../bgImg/602indeximg.png) no-repeat -926px -343px }
+#Raiders_right dd li { width: 185px; height: 29px; color: #f60; font-weight: bold; line-height: 29px; border-bottom: 1px dashed #ebebeb; margin: 0 7px }
+#Raiders_right dd li a { width: 132px; height: 29px; padding-left: 25px; display: block; float: left; font-weight: 100; color: #333 }
+#Raiders_right dd li a:hover { color: #F60 }
+#Raiders_right dd li span { float: right; margin-right: 3px; font-weight: 300 }
+#Copyright { width: 965px; margin-bottom: 20px; overflow: hidden }
+#Copyright dt { height: 32px; line-height: 32px; padding-left: 16px; color: #fff; font-size: 14px; font-weight: bold; background: url(../bgImg/602indeximg.png) no-repeat 0 -914px }
+#Copyright dd { line-height: 28px; margin-top: 8px }
+#Copyright dd .linkbox_top { display: block; width: 965px; height: 4px; overflow: hidden; background: url(../bgImg/linkbox.png) no-repeat 0 0 }
+#Copyright dd .linkbox_middle { display: block; overflow: hidden; background: url(../bgImg/linkbox.png) repeat-y -965px 0; padding: 3px 15px }
+#Copyright dd .linkbox_bottom { display: block; width: 965px; height: 4px; overflow: hidden; background: url(../bgImg/linkbox.png) no-repeat -1930px 0 }
+#Copyright dd a { font-weight: 300; color: #08c; color: #333 }
+#Copyright dd a:hover { color: #d70000 }
+#Copyright dd font { margin: 0 8px; color: #ccc }
+div, ul, li { margin: 0; padding: 0 }
+a:link { text-decoration: none }
+a:visited { text-decoration: none }
+a:hover { color: #F60 }
+ul { list-style: none }
+.main { font-size: 12px; width: 220px; margin: 0 auto; overflow: hidden; padding-top: 6px; height: 186px }
+.main li { height: 20px; line-height: 20px; width: 207px; overflow: hidden; padding: 5px 0 5px 13px; border-bottom: 1px #e3e3e3 dashed; float: left; background: url(../bgImg/602indeximg.png) no-repeat -940px -285px }
+.main li a { text-decoration: none; color: #333 }
+.main li a:hover { color: #F90 }
+#tabs0 { width: 232px; height: 234px; float: left; background: url(../bgImg/602indeximg.png) no-repeat -717px 0 }
+#tabs0 .menu1 { width: 220px; margin: 10px auto 0 auto; border-bottom: 1px #c8c8c8 solid; height: 25px; position: relative; zoom: 1; z-index: 10 }
+.menu0 { width: 220px; height: 25px; overflow: hidden; zoom: 1; position: absolute; bottom: -1px; z-index: 999 }
+.menu0 li { display: block; float: left; height: 25px; line-height: 25px; margin: 0 5px; display: inline; width: 57px; text-align: center; cursor: pointer; color: #bcbcbc; font-weight: bold; font-size: 15px; font-family: "微软雅黑", "宋体" }
+.menu0 li.hover { background: url(../bgImg/602indeximg.png) no-repeat 0 -374px; font-weight: bold; height: 25px; font-size: 15px; line-height: 25px; color: #4c4c4c }
+#main0 ul { display: none }
+#main0 ul.block { display: block; overflow: hidden; zoom: 1 }
+.main11 { clear: both; padding: 8px; font-size: 13px; display: inline-block }
+.main11 li { width: 229px; height: 25px; line-height: 25px; margin-right: 5px; float: left; padding-left: 18px; display: inline; background: url(../bgImg/index_4.gif) no-repeat 2px 11px }
+.main11 li a { color: #333 }
+.main11 li a:hover { color: #F90 }
+#tabs1 { width: 520px; height: 283px; border: 1px solid #ebebeb; float: left }
+.menu11 { width: 490px; height: 30px; background: url(../bgImg/index_23.jpg) }
+.menu11 { padding-left: 30px }
+.menu11 li { display: block; float: left; height: 30px; line-height: 30px; width: 95px; text-align: center; cursor: pointer; color: #F60; font-weight: bold }
+.menu11 li.hover { background: #F60; font-weight: bold; height: 28px; line-height: 28px; margin-top: 1px; color: #FFF }
+#main11 ul { display: none }
+#main11 ul.block { display: block }
+
+
+#menu3 li { float: left; height: 32px; line-height: 32px; margin: 0 5px; display: inline; text-align: center; cursor: pointer; color: #bcbcbc; font-weight: bold; font-family: "微软雅黑", "宋体" }
+#menu3 li.hover { font-weight: bold; height: 32px; font-size: 15px; line-height: 32px; color: #4c4c4c }
+
+
+
+
+
+/*推荐游戏*/
+
+body { font: 12px "microsoft yahei" }
+.main-l { float: right; width: 717px; height: auto }
+.bg-1 { border-bottom: 1px solid #BED7E8; border-left: 1px solid #BED7E8; border-right: 1px solid #BED7E8; background: #fff }
+.home-bg { background: url(../bgImg/home.png) no-repeat 0 0; }
+.aside-top, .main-top { padding-right: 10px; border: 1px solid #BAD9E6 }
+.aside-top .more, .main-top .more { position: absolute; right: 10px; font-size: 12px; font-family: "微软雅黑"; background-position: -73px -155px; padding-right: 15px; height: 15px; line-height: 15px }
+.main-top-ico { width: 4px; height: 13px; background-position: 0 -207px; margin: 10px 7px 0 12px }
+.fl { float: left; _display: inline }
+.fr { float: right; _display: inline }
+.t, .t-s { font: 700 15px/30px "microsoft yahei" }
+.t-s a { font-weight: 400 }
+.rec-g-tit .btn-1 { margin-right: 11px; color: #0A5681 }
+
+
+.rec-game, .rec-g-img, .r-g-bl, .r-g-bl-a { width: 229px; overflow: hidden }
+.rec-game { height: 208px; margin: 9px 0 0 4px; float: left; display: inline; padding: 1px; /*background: #fff url(../bgImg/bg-rec-game.png) no-repeat*/ }
+.rec-game-cover { position: absolute; top: 0; left: 0; height: 170px; width: 229px; background: transparent url(../bgImg/bg-recgame-cover.png) no-repeat; _background-image: url(../bgImg/bg-recgame-cover-8.png) }
+.rec-g-img { height: 179px; position: relative }
+.rec-g-img img { height: 183px; position: absolute; left: 0; top: 0; z-index: 1 }
+.r-g-bl { height: 170px; position: relative; z-index: 10 }
+.r-g-bl-a { height: 170px; display: block; z-index: 10 }
+.r-g-bl-a:hover { text-decoration: none }
+.rec-info { background-position: 0 -90px; width: 209px; height: 30px; line-height: 30px; overflow: hidden; position: absolute; left: 0; top: 170px; text-align: left; color: #fff; padding: 0 10px; opacity: 0; z-index: 100; _background: #48483B; _filter: alpha(opacity=50) }
+.rec-info a { color: #FFEE2B; float: right }
+.rec-game .focus { height: 22px }
+.rec-g-tit { height: 22px; color: #E36C00; font-size: 16px; font-weight: 700; padding-left: 5px; padding-right: 5px }
+.rec-g-tit a { font-weight: 400 }
+.hot-game-con { height: auto }
+.hot-game { margin: 2px 0 0 15px; width: 216px; height: auto; overflow: hidden; float: left; display: inline; position: relative; padding: 9px 9px 10px }
+
+
