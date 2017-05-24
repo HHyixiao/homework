@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>do_search</title>
+
+</head>
+<body>
+	<script src = 'datas.js'></script>
+	<script>
+	console.dir(datas)
+	function do_search(obj,searchtext){
+		var newdata=[],str,row,path;
+		objClone = JSON.parse(JSON.stringify(obj));
+			console.dir(objClone.length)
+			for(var i in objClone){
+				console.dir(i)
+					
+				if(typeof objClone[i] !== "object") {
+					str=transform(objClone[i]).join(',');
+					row=str.indexOf(searchtext);
+					
+					if(row != 0){
+						//push需要的对象到新数组中
+						path += objClone[i] + ',';
+					}
+				} else {
+					path += do_search(objClone[i],searchtext)
+				}
+				newdata.push(path);
+			}
+		return newdata;
+	}
+	// 将对象转化为数组
+	function transform(obj){
+		var arr = [];
+		for(var item in obj){
+			arr.push(obj[item]);
+		}
+		return arr;
+	}
+	console.dir(do_search(datas,'htcufs57'))
+	</script>
+	<script src = 'do_search.js'></script>
+</body>
+</html>
