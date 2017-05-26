@@ -30,3 +30,22 @@ function transform(obj){
 }
 console.log(do_search(arr,"a")); 
 ```
+
+***
+
+17/05/26更新
+
+之前犯傻了
+
+Array对象提供了find()方法对数组内的成员进行查询
+
+```javascript
+var arr = [{id:10,name:'ces'},{id:12,name:'afa'},{id:5,name:'itc'},{id:8,name:'ceaes'}];
+
+var item = arr.find(function(obj){
+  //在这里obj是arr的每一个成员，返回搜索规则就，find()方法就回返回符合规则的数字成员
+  return obj.id == 10;
+});
+console.log(item);
+```
+
