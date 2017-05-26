@@ -16,7 +16,8 @@ Array.prototype.chunk = function(n){
 ```javascript
 Array.prototype.chunk = function(n,m=true){
 	var clone = [], arr = [];
-	m ? clone = JSON.parse(JSON.stringify(this)) : clone = this;
+	//m ? clone = JSON.parse(JSON.stringify(this)) : clone = this;
+	m ? clone = this.concat() : clone = this;
     for(var i = 0, l = clone.length / n; arr.length < l; arr[i++] = clone.splice(0, n));
     return arr;
 }

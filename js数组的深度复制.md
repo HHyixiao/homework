@@ -17,8 +17,20 @@ Array.prototype.clone = function() {
 }
 ```
 ***
-json实现
+json实现--可以复制对象
 ```javascript
 var arr1 = [1, 2, [3, 4], {a: 5, b: 6}, 7],
     arr2 = JSON.parse(JSON.stringify(arr1));
 ```
+
+***
+
+原生方法：
+
+```javascript
+//返回一个新的数组
+Array.concat();
+Array.slice();
+Array.slice(0);
+```
+
