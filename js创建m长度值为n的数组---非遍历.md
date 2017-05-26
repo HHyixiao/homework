@@ -2,7 +2,7 @@
 
 ```javascript
 var m = 10,n=3,arr;
-arr = Array(m).join(3).split('');
+arr = Array(m).join(n).split('');
 console.log(arr);
 ```
 ***
