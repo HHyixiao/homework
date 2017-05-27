@@ -49,3 +49,8 @@ var item = arr.find(function(obj){
 console.log(item);
 ```
 
+
+
+17/05/27更新：
+
+find(方法兼容性有问题)

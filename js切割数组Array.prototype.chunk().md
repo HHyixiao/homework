@@ -4,7 +4,7 @@
 
 ```javascript
 Array.prototype.chunk = function(n){
-    for(var i = 0, arr = [], l = ~~this.length / n; temp.length < l; arr[i++] = this.splice(0, n));
+    for(var i = 0, arr = [], l = this.length / n; temp.length < l; arr[i++] = this.splice(0, n));
     return arr;
 }
 ```
@@ -25,5 +25,23 @@ var arr = '这是一个测试的用例测试'.split('');
 var item = arr.chunk(7);
 console.dir(arr);
 console.dir(item);
+```
+
+***
+
+17/05/27更新：
+
+低版本ie内核不支持函数形参赋默认值
+
+需要改写成
+
+```javascript
+Array.prototype.chunk = function(n,m){
+	var m=m||true;//处理兼容
+	var clone = [], arr = [];
+	m ? clone = JSON.parse(JSON.stringify(this)) : clone = this;
+    for(var i = 0, l = clone.length / n; arr.length < l; arr[i++] = clone.splice(0, n));
+    return arr;
+}
 ```
 
