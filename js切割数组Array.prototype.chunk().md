@@ -4,7 +4,7 @@
 
 ```javascript
 Array.prototype.chunk = function(n){
-    for(var i = 0, arr = [], l = this.length / n; temp.length < l; arr[i++] = this.splice(0, n));
+    for(var i = 0, arr = [], l = this.length / n; arr.length < l; arr[i++] = this.splice(0, n));
     return arr;
 }
 ```
